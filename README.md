@@ -1,5 +1,6 @@
-This is the absolute minimum you need to start a [bookdown](https://bookdown.org/yihui/bookdown/) book. You can find the
-preview of this book at http://seankross.com/bookdown-start/
+# Aplicaciones estadísticas para un mundo hibrido
 
-All of the content of this repository is licensed 
-[CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+Este libro esta en R markdown,aun se encuentra en proceso de desarrollo por lo que se esta continuamente actualizando.
+
+Si quieres crear un documento similar a este puedes ingresar a [bookdown](https://bookdown.org/yihui/bookdown/) book.
+
