@@ -39,8 +39,16 @@ el uso de un software que permita resolver numericamente los problemas que se ex
 los conceptos y técnicas estadisticas en un entorno real,pudiendo incluso dentro de el realizar visualizaciones.Cabe destacar que el software R y R Studio incluso nos permite desarrollar informes,sin embargo es un topico que no trataremos en este libro debido a la extensión del mismo.
 
 
-
-
 ## Un breve recorrido por R y R Studio
 
-¿Que es R y R Studio?
+Tal vez es necesaria una clara distinción entre los software R y R Studio,sobre porque en estos dias la compañia R Studio
+a pasado a llamarse Posit,lo cual es mas que un simple cambio de nombre,mas adelante explicaremos brevemente el porque de la distinción.
+
+R es un lenguaje de computo estadistico y visualización desarrollado en la Universidad de Auckland en 1993, sin embargo hasta el dia de hoy se sigue utilizando y sobretodo en los ultimos años a tenido una mayor demanda tanto en la industria como en la academia,debido a su caracter de Open Soruce,ademas de poseer una gran cantidad de librerias que permiten extender las capacidades basicas del mismo sin ningun costo.Es asi que con R es posible realizar desde operaciones aritmeticas sencillas,implementar técnicas estadisticas como modelos de regresión,análisis de series temporales, desarrollo de graficos interactivos e incluso algoritmos de machine learning.
+
+En cambio R Studio es un Entorno de desarrollo Integrado(IDE),que brrinda al software R con una interfaz visual en donde es
+posible gestionar en una unica ventana los distintos documentos,scripts,set de datos y/o visualizaciones,esto debido a que la interfaz se compone de varios paneles que organizan cada uno de estos de forma optima.Junto a lo anterior,R Studio tambien permite
+el uso de software de terceros como Github,Spark,conexiones a bases de datos,entre otros.Estos ultimos aspectos no se trataran en este libro,sin embargo son utilizados de forma intensiva en conjunto.
+
+
+
