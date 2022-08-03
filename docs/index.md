@@ -14,14 +14,14 @@ description: "Aplicaciones estadisticas para un mundo hibrido"
 
 # Motivación {.unnumbered}
 
-El siguiente libro se encuentra enfocado en las aplicaciones estadisticas, 
-que son técnicas transversarles y de amplio uso en distintas áreas de conocimiento.
-Además se contempla el uso del software R,ya que es un software de computo estadistico 
+El siguiente libro se encuentra enfocado en la aplicación de la estadística como herramienta transversal, 
+ya que esta cuenta con técnicas transversarles y que son utilizadas en distintas áreas de conocimiento.
+Además se contempla el uso del software R,ya que es un software de computo estadístico 
 con alta demanda en distintas industrias asi como en la academia,sin embargo se limita su uso
 a la lectura de datos e información,tratamiento y visualización de estos.
 
-Hoy en dia la automatización de procesos asi como la llegada masiva del teletrabajo,a supuesto 
-mayores desafios teniendo que afrontarlos mediante la transformación tecnologica de diversas actividades que
-antes se realizaban de forma manual y presencial, es debido a lo anterior que incluso el uso de la estadistica en 
-las disintas areas del desarrollo humano requiere una perspectiva distinta.Es por esto que en el libro no solo encontraras
+Hoy en día la automatización de procesos asi como la llegada masiva del teletrabajo,a supuesto 
+mayores desafíos para las actividades productivas,impulsando a la industrias asi como a los centros de educación a adoptar mas temprano que tarde una transformación tecnologica en diversas actividades que
+antes se realizaban de forma manual y presencial.Debido a lo anterior, la aplicación de la estadística en 
+las disintas áreas del desarrollo humano requiere una perspectiva distinta.Es por esto que en el libro no solo encontrarás
 las técnicas estadisticas clasicas sino que se abordan algunas nuevas,mediante el uso del software R.
