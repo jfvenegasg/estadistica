@@ -41,14 +41,18 @@ los conceptos y técnicas estadisticas en un entorno real,pudiendo incluso dentr
 
 ## Un breve recorrido por R y R Studio
 
-Tal vez es necesaria una clara distinción entre los software R y R Studio,sobre porque en estos dias la compañia R Studio
+Tal vez es necesario una clara distinción entre los software R y R Studio,sobre todo porque en estos días la compañia R Studio
 a pasado a llamarse Posit,lo cual es mas que un simple cambio de nombre,mas adelante explicaremos brevemente el porque de la distinción.
 
-R es un lenguaje de computo estadistico y visualización desarrollado en la Universidad de Auckland en 1993, sin embargo hasta el dia de hoy se sigue utilizando y sobretodo en los ultimos años a tenido una mayor demanda tanto en la industria como en la academia,debido a su caracter de Open Soruce,ademas de poseer una gran cantidad de librerias que permiten extender las capacidades basicas del mismo sin ningun costo.Es asi que con R es posible realizar desde operaciones aritmeticas sencillas,implementar técnicas estadisticas como modelos de regresión,análisis de series temporales, desarrollo de graficos interactivos e incluso algoritmos de machine learning.
+R es un lenguaje de cómputo estadístico y visualización desarrollado en la Universidad de Auckland en 1993, sin embargo hasta el día de hoy se sigue utilizando y sobretodo en los ultimos años a tenido una mayor demanda tanto en la industria como en la academia debido a su carácter de Open Soruce,además de poseer una gran cantidad de librerías que permiten extender las capacidades básicas del mismo sin ningún costo.Es asi que con R es posible realizar desde operaciones aritméticas sencillas,implementar técnicas estadísticas como modelos de regresión,análisis de series temporales, desarrollo de gráficos interactivos e incluso algoritmos de machine learning.
 
-En cambio R Studio es un Entorno de desarrollo Integrado(IDE),que brrinda al software R con una interfaz visual en donde es
-posible gestionar en una unica ventana los distintos documentos,scripts,set de datos y/o visualizaciones,esto debido a que la interfaz se compone de varios paneles que organizan cada uno de estos de forma optima.Junto a lo anterior,R Studio tambien permite
-el uso de software de terceros como Github,Spark,conexiones a bases de datos,entre otros.Estos ultimos aspectos no se trataran en este libro,sin embargo son utilizados de forma intensiva en conjunto.
+En cambio R Studio es un Entorno de Desarrollo Integrado(IDE),que brinda al software R de una interfaz visual en donde es
+posible gestionar en una única ventana los distintos documentos,scripts,set de datos y/o visualizaciones,esto debido a que la interfaz se compone de varios paneles que organizan cada uno de estos de forma óptima.Junto a lo anterior,R Studio tambien permite
+el uso de software de terceros como Github,Spark,conexiones a bases de datos,entre otros.Estos últimos aspectos no se tratarán en este libro,sin embargo son utilizados de forma intensiva en conjunto.
 
+A continuación se muestra una imagen de la ventana principal de R Studio.
 
+<img src="images/rstudio.png" width="594" />
 
+En el primer panel se ubica la ventana de script,en donde es posible escribir aquellas instrucciones secuenciales
+que queremos que se ejecuten sean operaciones aritmeticas,definición de variables y gráficos.Luego el segundo panel se ubica la consola junto a otros sub-paneles en donde es posible ejecutar instrucciones una a una dentro de otras fuera del entorno de R,además es la ventana original que brinda el software R sin el uso del IDE deR Studio.En el tercer panel se ubica la ventana en donde se almacenan las variables asi como otras estructuras de datos,a las cuales se puede acceder directamente desde aqui.Finalmente en la cuarta ventana se ubica el directorio de trabajo asi como otros sub-paneles en donde se puede acceder a la ayuda de R,graficos desarrollados,entre otros.
