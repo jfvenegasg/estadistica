@@ -52,7 +52,7 @@ el uso de software de terceros como Github,Spark,conexiones a bases de datos,ent
 
 A continuación se muestra una imagen de la ventana principal de R Studio.
 
-<img src="images/rstudio.png" width="594" />
+<img src="images/rstudio.png" width="1187" />
 
 En el primer panel se ubica la ventana de script,en donde es posible escribir aquellas instrucciones secuenciales
 que queremos que se ejecuten sean operaciones aritmeticas,definición de variables y gráficos.Luego el segundo panel se ubica la consola junto a otros sub-paneles en donde es posible ejecutar instrucciones una a una dentro de otras fuera del entorno de R,además es la ventana original que brinda el software R sin el uso del IDE deR Studio.En el tercer panel se ubica la ventana en donde se almacenan las variables asi como otras estructuras de datos,a las cuales se puede acceder directamente desde aqui.Finalmente en la cuarta ventana se ubica el directorio de trabajo asi como otros sub-paneles en donde se puede acceder a la ayuda de R,graficos desarrollados,entre otros.

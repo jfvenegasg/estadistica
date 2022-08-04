@@ -6,4 +6,6 @@ Aca comenzamos con probabilidad
 
 ...
 
+## Probabilidad 2
+
 ## Probabilidad n
