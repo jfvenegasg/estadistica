@@ -2,6 +2,8 @@ book_filename: "bookdown-start"
 chapter_name: "Capitulo "
 repo: https://github.com/seankross/bookdown-start
 output_dir: docs
-rmd_files: ["index.Rmd", "01-Introduction.Rmd", "02-Teoria-de-probabilidad.Rmd"]
+rmd_files: ["index.Rmd", "01-Introduction.Rmd", "02-Teoria-de-probabilidad.Rmd", "03-Distribuciones-de-probabilidad.Rmd",
+"04-Distribuciones-de-probabilidad-discretas.Rmd", "05-Distribuciones-de-probabilidad-continuas.Rmd", "06-Distribuciones-de-muestreo.Rmd",
+"07-Estimaciones-con-una-y-dos-muestras.Rmd"]
 clean: [packages.bib, bookdown.bbl]
 new_session: yes

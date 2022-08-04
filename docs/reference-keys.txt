@@ -9,3 +9,9 @@ probabilidad-n
 este-libro
 como-esta-organizado-este-libro
 un-breve-recorrido-por-r-y-r-studio
+probabilidades
+distribuciones-de-probabilidad
+distribuciones-de-probabilidad-discretas
+distribuciones-de-probabilidad-continuas
+distribuciones-de-muestreo
+estimaciones-con-una-y-dos-muestras

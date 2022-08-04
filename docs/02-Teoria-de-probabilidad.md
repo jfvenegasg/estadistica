@@ -1,4 +1,4 @@
-# Teoria de probabilidad
+# Probabilidades
 
 Aca comenzamos con probabilidad
 
