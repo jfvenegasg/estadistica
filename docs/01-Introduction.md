@@ -1,20 +1,20 @@
 # Introducción
 
 
-El término estadistica hace referencia a la "Persona del estado" ampliamente 
-utilizado desde hace años,debido a que durante décadas fue el estado el unico que
-podia realizar estudios y análisis sociales,demograficos y economicos para el desarrollo
-de politicas públicas.Sin embargo desde los años 80 y de ahi en adelante la computación
-e informatica han permitido que no solo el estado sea quien pueda desarrollar estos estudios,
+El término estadística hace referencia a la "Ciencia de las cosas que pertenecen al estado" ampliamente 
+utilizado desde hace décadas,debido a que durante muchos años fue el estado el único que
+podia realizar recolección de datos,estudios y análisis sociales,demográficos y económicos para el desarrollo
+de políticas públicas.Sin embargo desde los años 80 y de ahi en adelante la computación
+e informática han permitido que no solo el estado sea quien pueda desarrollar estos estudios,
 permitiendo además minimizar los tiempos de recolección de información,gastos y costos de almacenamiento
-asi como de procesamiento.
+así como de procesamiento.
 
-De esta forma es que el término estadística a evolucionado hacia un concepto mas amplio
+De esta forma es que el término estadística a evolucionado hacia un concepto más amplio
 acerca de las técnicas,métodos y herramientas que puede utilizar,incluso habilitando el 
-considerar como objeto de estudio áreas que por su heterogeneidad décadas atras habria sido imposible.
-En este contexto,este libro introduce al uso de aplicaciones estadisticas mediante la integración
-del software R y R Studio,ya que es uno de los con mayor demanda en el mundo asi como Python,Julia,SPSS,entre otros
-pero que no se consideran en este libro. 
+considerar como objeto de estudio áreas que por su heterogeneidad, décadas atrás habria sido imposible contemplar para su estudio.Es por eso que hoy en dia la estadística se vuelto uno de los pilares fundamentales de lo que hoy se conoce como Ciencia de Datos junto a otras áreas como las matematicas,informática,entre otras.
+
+En este contexto,este libro introduce al uso de aplicaciones estadísticas mediante la integración
+del software R y R Studio,ya que es uno de los con mayor demanda en el mundo asi como Python,Julia,SPSS,entre otros pero que no se consideran en este libro.
 
 
 
@@ -48,13 +48,13 @@ R es un lenguaje de cómputo estadístico y visualización desarrollado en la Un
 
 En cambio R Studio es un Entorno de Desarrollo Integrado(IDE),que brinda al software R de una interfaz visual en donde es
 posible gestionar en una única ventana los distintos documentos,scripts,set de datos y/o visualizaciones,esto debido a que la interfaz se compone de varios paneles que organizan cada uno de estos de forma óptima.Junto a lo anterior,R Studio tambien permite
-el uso de software de terceros como Github,Spark,conexiones a bases de datos,entre otros.Estos últimos aspectos no se tratarán en este libro,sin embargo son utilizados de forma intensiva en conjunto.
+el uso de software de terceros como Github,Spark,conexiones a bases de datos,entre otros.Estos últimos aspectos no se tratarán en este libro,sin embargo son utilizados de forma intensiva en conjunto.Para la instalación del software R,pueden acceder directamente a su web [R](https://www.r-project.org/) 
 
 A continuación se muestra la ventana principal de R.
 
 <img src="images/r_project.png" width="960" />
 
-Este es la interfaz grafica de R(GUI), que podemos utilizar una vez que se haya instalado correctamente el software.Como se ve en la imagen solo es posible acceder a la consola asi como a algunas opciones en la barra de herramientas superior.Si bien es posible desarrollar cualquier instrucción tipica de R,tal vez en algunos casos cuando requerimos de una distribución mas clara de cada uno de los objetos,variables,graficos u otros elementos,sera mucho mas útil utilizar el entorno de desarrollo R Studio.Cabe destacar que para utilizar R Studio,debemos primero haber instalado R.
+Este es la interfaz grafica de usuario de R (GUI), que podemos utilizar una vez que se haya instalado correctamente el software.Como se ve en la imagen solo es posible acceder a la consola asi como a algunas opciones en la barra de herramientas superior.Si bien es posible desarrollar cualquier instrucción tipica de R,tal vez en algunos casos cuando requerimos de una distribución mas clara de cada uno de los objetos,variables,gráficos u otros elementos,será mucho mas útil utilizar el entorno de desarrollo R Studio.Sin embargo,para instalar R Studio deben haber instalado primero R desde la web anterior y para instalar el IDE R Studio,deben ingresar a la siguiente web [R Studio](https://www.rstudio.com/) ...la cual próximamente cambiara a Posit.
 
 A continuación se muestra una imagen de la ventana principal de R Studio.
 

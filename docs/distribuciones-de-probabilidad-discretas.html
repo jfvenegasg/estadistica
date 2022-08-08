@@ -4,32 +4,34 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Capitulo 1 Distribuciones de Probabilidad discretas | 04-Distribuciones-de-probabilidad-discretas.knit</title>
-  <meta name="description" content="" />
+  <title>Capitulo 4 Distribuciones de Probabilidad discretas | Fundamentos de estadistica</title>
+  <meta name="description" content="Aplicaciones estadisticas para un mundo hibrido" />
   <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Capitulo 1 Distribuciones de Probabilidad discretas | 04-Distribuciones-de-probabilidad-discretas.knit" />
+  <meta property="og:title" content="Capitulo 4 Distribuciones de Probabilidad discretas | Fundamentos de estadistica" />
   <meta property="og:type" content="book" />
   
-  
-  
+  <meta property="og:description" content="Aplicaciones estadisticas para un mundo hibrido" />
+  <meta name="github-repo" content="seankross/bookdown-start" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Capitulo 1 Distribuciones de Probabilidad discretas | 04-Distribuciones-de-probabilidad-discretas.knit" />
+  <meta name="twitter:title" content="Capitulo 4 Distribuciones de Probabilidad discretas | Fundamentos de estadistica" />
   
-  
+  <meta name="twitter:description" content="Aplicaciones estadisticas para un mundo hibrido" />
   
 
+<meta name="author" content="Juan F. Venegas Gutiérrez" />
 
 
+<meta name="date" content="2022-08-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-
+<link rel="prev" href="distribuciones-de-probabilidad.html"/>
+<link rel="next" href="distribuciones-de-probabilidad-continuas.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -70,7 +72,23 @@
 <li><a href="./">Fundamentos de estadistica</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path=""><a href="#distribuciones-de-probabilidad-discretas"><i class="fa fa-check"></i><b>1</b> Distribuciones de Probabilidad discretas</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Motivación</a></li>
+<li class="chapter" data-level="1" data-path="introducción.html"><a href="introducción.html"><i class="fa fa-check"></i><b>1</b> Introducción</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introducción.html"><a href="introducción.html#como-esta-organizado-este-libro"><i class="fa fa-check"></i><b>1.1</b> Como esta organizado este libro</a></li>
+<li class="chapter" data-level="1.2" data-path="introducción.html"><a href="introducción.html#un-breve-recorrido-por-r-y-r-studio"><i class="fa fa-check"></i><b>1.2</b> Un breve recorrido por R y R Studio</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="probabilidades.html"><a href="probabilidades.html"><i class="fa fa-check"></i><b>2</b> Probabilidades</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="probabilidades.html"><a href="probabilidades.html#probabilidad-1"><i class="fa fa-check"></i><b>2.1</b> Probabilidad 1</a></li>
+<li class="chapter" data-level="2.2" data-path="probabilidades.html"><a href="probabilidades.html#probabilidad-2"><i class="fa fa-check"></i><b>2.2</b> Probabilidad 2</a></li>
+<li class="chapter" data-level="2.3" data-path="probabilidades.html"><a href="probabilidades.html#probabilidad-n"><i class="fa fa-check"></i><b>2.3</b> Probabilidad n</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="distribuciones-de-probabilidad.html"><a href="distribuciones-de-probabilidad.html"><i class="fa fa-check"></i><b>3</b> Distribuciones de Probabilidad</a></li>
+<li class="chapter" data-level="4" data-path="distribuciones-de-probabilidad-discretas.html"><a href="distribuciones-de-probabilidad-discretas.html"><i class="fa fa-check"></i><b>4</b> Distribuciones de Probabilidad discretas</a></li>
+<li class="chapter" data-level="5" data-path="distribuciones-de-probabilidad-continuas.html"><a href="distribuciones-de-probabilidad-continuas.html"><i class="fa fa-check"></i><b>5</b> Distribuciones de Probabilidad Continuas</a></li>
+<li class="chapter" data-level="6" data-path="distribuciones-de-muestreo.html"><a href="distribuciones-de-muestreo.html"><i class="fa fa-check"></i><b>6</b> Distribuciones de Muestreo</a></li>
+<li class="chapter" data-level="7" data-path="estimaciones-con-una-y-dos-muestras.html"><a href="estimaciones-con-una-y-dos-muestras.html"><i class="fa fa-check"></i><b>7</b> Estimaciones con una y dos muestras</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -83,7 +101,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"></a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Fundamentos de estadistica</a>
           </h1>
         </div>
 
@@ -91,19 +109,18 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<!--bookdown:title:end-->
-<!--bookdown:title:start-->
-<div id="distribuciones-de-probabilidad-discretas" class="section level1 hasAnchor" number="1">
-<h1><span class="header-section-number">Capitulo 1</span> Distribuciones de Probabilidad discretas<a href="#distribuciones-de-probabilidad-discretas" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="distribuciones-de-probabilidad-discretas" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Capitulo 4</span> Distribuciones de Probabilidad discretas<a href="distribuciones-de-probabilidad-discretas.html#distribuciones-de-probabilidad-discretas" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>Now I’ll teach you some crazy math, but I need to work it out first…</p>
+
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-
+<a href="distribuciones-de-probabilidad.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="distribuciones-de-probabilidad-continuas.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -145,8 +162,11 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": null,
-"search": false,
+"download": ["bookdown-start.pdf", "bookdown-start.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }
