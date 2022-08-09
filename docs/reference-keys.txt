@@ -10,3 +10,6 @@ distribuciones-de-probabilidad-discretas
 distribuciones-de-probabilidad-continuas
 distribuciones-de-muestreo
 estimaciones-con-una-y-dos-muestras
+variabilidad-en-el-mundo-real
+variabilidadincertidumbre-y-riesgo
+variabilidad-e-incertidumbre
