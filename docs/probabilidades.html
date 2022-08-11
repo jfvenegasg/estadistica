@@ -228,6 +228,8 @@ A=[uno,dos,tres]
 <p><span class="math display">\[\begin{align*}
 A&#39;=[cuatro,cinco,seis]
 \end{align*}\]</span></p>
+<p>En R podemos definir nuevamente el complemento del evento <span class="math inline">\(A\)</span> ya definido como</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="probabilidades.html#cb3-1" aria-hidden="true" tabindex="-1"></a>A_comp<span class="ot">=</span><span class="fu">c</span>(<span class="st">&quot;cuatro&quot;</span>,<span class="st">&quot;cinco&quot;</span>,<span class="st">&quot;seis&quot;</span>)</span></code></pre></div>
 </div>
 <div id="intersección" class="section level4 hasAnchor" number="2.3.2.2">
 <h4><span class="header-section-number">2.3.2.2</span> Intersección<a href="probabilidades.html#intersección" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -239,11 +241,24 @@ A&#39;=[cuatro,cinco,seis]
 </div>
 <div id="eventos-mutuamente-excluyentes" class="section level4 hasAnchor" number="2.3.2.3">
 <h4><span class="header-section-number">2.3.2.3</span> Eventos mutuamente excluyentes<a href="probabilidades.html#eventos-mutuamente-excluyentes" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Si dos eventos <span class="math inline">\(A\)</span> y <span class="math inline">\(B\)</span> no tienen elementos en común,decimos que los eventos son <strong>mutuamente excluyentes</strong>,es decir $A   B=$</p>
+<p>Si dos eventos <span class="math inline">\(A\)</span> y <span class="math inline">\(B\)</span> no tienen elementos en común,decimos que los eventos son <strong>mutuamente excluyentes</strong>,es decir <span class="math inline">\(A\)</span> <span class="math inline">\(\cap\)</span> $B=$</p>
 <p>Si consideramos la intersección los eventos <span class="math inline">\(A\)</span> y <span class="math inline">\(A&#39;\)</span> determinados en la sección anterior,tenemos que</p>
 <p><span class="math display">\[\begin{align*}
 A \cap \ A&#39;=\phi
 \end{align*}\]</span></p>
+</div>
+<div id="union" class="section level4 hasAnchor" number="2.3.2.4">
+<h4><span class="header-section-number">2.3.2.4</span> Union<a href="probabilidades.html#union" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>La union entre 2 eventos <span class="math inline">\(A\)</span> y <span class="math inline">\(B\)</span> se denota como <span class="math inline">\(A\)</span> <span class="math inline">\(\cup\)</span> <span class="math inline">\(B\)</span>,en donde la unión contiene a todos los elementos presentes tanto en <span class="math inline">\(A\)</span> como en <span class="math inline">\(B\)</span>.</p>
+<p>Usando los eventos <span class="math inline">\(A\)</span> y <span class="math inline">\(A&#39;\)</span> ya definidos anteriormente,podemos establecer la union</p>
+<p><span class="math display">\[\begin{align*}
+A \cup \ A&#39;=[uno,dos,tres,cuatro,cinco,seis]
+\end{align*}\]</span></p>
+<p>Asi como hemos visto la relación entre eventos y el espacio muestral , tambien podemos representar de forma grafica estas relaciones con un diagrama de Venn,</p>
+<p>En R podemos realizar esta representacion grafica mediante la libreria <em>VennDiagram</em>.Si definimos un set de datos luego lo podemos representar mediante la funcion <em>display_venn()</em> como se muestra a continuación</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="probabilidades.html#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Diagrama de Venn para las relaciones entre los eventos W,X e Y</span></span>
+<span id="cb4-2"><a href="probabilidades.html#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">display_venn</span>(x[<span class="dv">1</span><span class="sc">:</span><span class="dv">3</span>])</span></code></pre></div>
+<p><img src="02-Teoria-de-probabilidad_files/figure-html/unnamed-chunk-5-1.png" width="384" /></p>
 </div>
 </div>
 <div id="probabilidades-de-un-evento" class="section level3 hasAnchor" number="2.3.3">
@@ -254,8 +269,8 @@ A \cap \ A&#39;=\phi
 P(\theta)=0 \\ \\
 P(S)=1
 \end{align*}\]</span></p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="probabilidades.html#cb3-1" aria-hidden="true" tabindex="-1"></a>x<span class="op">=</span>[<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>]</span></code></pre></div>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="probabilidades.html#cb4-1" aria-hidden="true" tabindex="-1"></a>x<span class="ot">=</span><span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="probabilidades.html#cb5-1" aria-hidden="true" tabindex="-1"></a>x<span class="op">=</span>[<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>]</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="probabilidades.html#cb6-1" aria-hidden="true" tabindex="-1"></a>x<span class="ot">=</span><span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span></code></pre></div>
 
 </div>
 </div>

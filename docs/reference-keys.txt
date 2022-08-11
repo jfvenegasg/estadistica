@@ -21,3 +21,4 @@ probabilidades-de-un-evento
 complementos
 intersección
 eventos-mutuamente-excluyentes
+union

@@ -76,6 +76,13 @@ De acuerdo al ejemplo anterior,el complemento de $A$
 A'=[cuatro,cinco,seis]
 \end{align*}
 
+En R podemos definir nuevamente el complemento del evento $A$ ya definido como
+
+```{r}
+A_comp=c("cuatro","cinco","seis")
+```
+
+
 #### Intersección
 
 La intersección entre dos eventos $A$ y $B$, se denota como $A$ $\cap$ $B$ y corresponde al evento que contiene a todos los elementos comunes entre $A$ y $B$.
@@ -88,7 +95,7 @@ Siguiendo con el espacio muestral \Omega ya definido,podemos establecer que la i
 
 #### Eventos mutuamente excluyentes
 
-Si dos eventos $A$ y $B$ no tienen elementos en común,decimos que los eventos son **mutuamente excluyentes**,es decir $A \ \cap \ B=\phi $
+Si dos eventos $A$ y $B$ no tienen elementos en común,decimos que los eventos son **mutuamente excluyentes**,es decir $A$ $\cap$ $B=\phi $
 
 Si consideramos la intersección los eventos $A$ y $A'$ determinados en la sección anterior,tenemos que
 
@@ -96,6 +103,45 @@ Si consideramos la intersección los eventos $A$ y $A'$ determinados en la secci
 A \cap \ A'=\phi
 \end{align*}
 
+#### Union
+
+La union entre 2 eventos $A$ y $B$ se denota como $A$ $\cup$ $B$,en donde la unión contiene a todos los elementos presentes tanto en $A$ como en $B$.
+
+Usando los eventos $A$ y $A'$ ya definidos anteriormente,podemos establecer la union
+
+
+\begin{align*}
+A \cup \ A'=[uno,dos,tres,cuatro,cinco,seis]
+\end{align*}
+
+Asi como hemos visto la relación entre eventos y el espacio muestral \Omega, tambien podemos representar de forma grafica estas relaciones con un diagrama de Venn, 
+
+En R podemos realizar esta representacion grafica mediante la libreria *VennDiagram*.Si definimos un set de datos luego lo podemos representar mediante la funcion *display_venn()* como se muestra a continuación
+
+```{r echo=FALSE, results=FALSE,message=FALSE}
+library(VennDiagram)
+display_venn <- function(x, ...){
+  library(VennDiagram)
+  grid.newpage()
+  venn_object <- venn.diagram(x, filename = NULL, ...)
+  grid.draw(venn_object)
+}
+
+set.seed(20190708)
+genes <- paste("gene",1:1000,sep="")
+x <- list(
+  W = sample(genes,300), 
+  X = sample(genes,525), 
+  Y = sample(genes,440),
+  Z = sample(genes,350)
+  )
+```
+
+```{r fig.width = 4,fig.height= 4}
+# Diagrama de Venn para las relaciones entre los eventos W,X e Y
+display_venn(x[1:3])
+
+```
 
 
 
