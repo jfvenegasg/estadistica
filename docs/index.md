@@ -1,7 +1,7 @@
 ---
 title: "Fundamentos de estadistica"
 author: "Juan F. Venegas Gutiérrez"
-date: "2022-08-08"
+date: "2022-08-11"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]

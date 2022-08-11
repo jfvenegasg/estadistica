@@ -13,3 +13,8 @@ estimaciones-con-una-y-dos-muestras
 variabilidad-en-el-mundo-real
 variabilidadincertidumbre-y-riesgo
 variabilidad-e-incertidumbre
+definición
+probabilidad
+espacio-muestral
+eventos
+probabilidades-de-un-evento

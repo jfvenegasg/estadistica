@@ -22,4 +22,40 @@ Sin embargo,sino consideramos en nuestro estudio,hipótesis o teoria algunos asp
 
 De otra forma podemos decir que la variabilidad no puede ser reducida en una población o muestras extraidas,sin embargo la incertidumbre si puede ser reducida e incluso eliminada con mayor información o datos
 
-## Probabilidad n
+## Probabilidad
+
+Para la estadistica es fundamental poder tener información o un conjunto de datos de la población que queremos estudiar,sin embargo no siempre sera posible estudiar directamente la población ante lo cual utilizaremos una muestra para el analísis de las variables o factores de interes.A pesar de esto, en muchas situaciones no siempre contaremos o existira la información que deseamos analizar,ante lo cual deberemos indagar en la naturaleza de los resultados de un experimento.
+
+### Espacio Muestral
+
+Al conjunto de todos los posibles elementos,resultados o puntos de un experimento le llamamos **espacio muestral** y lo podemos representar con el simbolo *S* u $\Omega$. 
+Si consideramos el espacio muestral $\Omega$ de todos los elementos que obtenemos al lanzar una moneda al aire,se tiene lo siguiente:
+
+
+\begin{align*}
+\Omega=[ \ C,\ S \ ]
+\end{align*}
+
+### Eventos
+
+### Probabilidades de un evento
+
+Si consideramos un evento $A$,la probabilidad de este evento corresponde a la suma de todos los elementos muestrales en A,asi tenemos lo siguiente:
+
+\begin{align*}
+0 \le P(A) \le  1 \\ \\
+P(\theta)=0 \\ \\
+P(S)=1 
+\end{align*}
+
+
+
+```python
+x=[1,2,3]
+```
+
+
+```r
+x=c(1,2,3)
+```
+
