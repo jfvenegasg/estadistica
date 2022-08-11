@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Fundamentos de estadistica</title>
+  <title>Fundamentos de Aplicaciones estadística</title>
   <meta name="description" content="Aplicaciones estadisticas para un mundo hibrido" />
   <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Fundamentos de estadistica" />
+  <meta property="og:title" content="Fundamentos de Aplicaciones estadística" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Aplicaciones estadisticas para un mundo hibrido" />
   <meta name="github-repo" content="seankross/bookdown-start" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Fundamentos de estadistica" />
+  <meta name="twitter:title" content="Fundamentos de Aplicaciones estadística" />
   
   <meta name="twitter:description" content="Aplicaciones estadisticas para un mundo hibrido" />
   
@@ -69,7 +69,7 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">Fundamentos de estadistica</a></li>
+<li><a href="./">Fundamentos de aplicaciones estadísticas</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Motivación</a></li>
@@ -86,7 +86,10 @@
 <ul>
 <li class="chapter" data-level="2.3.1" data-path="probabilidades.html"><a href="probabilidades.html#espacio-muestral"><i class="fa fa-check"></i><b>2.3.1</b> Espacio Muestral</a></li>
 <li class="chapter" data-level="2.3.2" data-path="probabilidades.html"><a href="probabilidades.html#eventos"><i class="fa fa-check"></i><b>2.3.2</b> Eventos</a></li>
-<li class="chapter" data-level="2.3.3" data-path="probabilidades.html"><a href="probabilidades.html#probabilidades-de-un-evento"><i class="fa fa-check"></i><b>2.3.3</b> Probabilidades de un evento</a></li>
+<li class="chapter" data-level="2.3.3" data-path="probabilidades.html"><a href="probabilidades.html#el-concepto-de-probabilidad"><i class="fa fa-check"></i><b>2.3.3</b> El concepto de probabilidad</a></li>
+<li class="chapter" data-level="2.3.4" data-path="probabilidades.html"><a href="probabilidades.html#axiomas-de-las-probabilidades"><i class="fa fa-check"></i><b>2.3.4</b> Axiomas de las probabilidades</a></li>
+<li class="chapter" data-level="2.3.5" data-path="probabilidades.html"><a href="probabilidades.html#probabilidad-condicional-e-independencia"><i class="fa fa-check"></i><b>2.3.5</b> Probabilidad Condicional e Independencia</a></li>
+<li class="chapter" data-level="2.3.6" data-path="probabilidades.html"><a href="probabilidades.html#regla-de-bayes"><i class="fa fa-check"></i><b>2.3.6</b> Regla de Bayes</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="distribuciones-de-probabilidad.html"><a href="distribuciones-de-probabilidad.html"><i class="fa fa-check"></i><b>3</b> Distribuciones de Probabilidad</a></li>
@@ -106,7 +109,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Fundamentos de estadistica</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Fundamentos de Aplicaciones estadística</a>
           </h1>
         </div>
 
@@ -115,20 +118,15 @@
 
             <section class="normal" id="section-">
 <div id="header">
-<h1 class="title">Fundamentos de estadistica</h1>
+<h1 class="title">Fundamentos de Aplicaciones estadística</h1>
 <p class="author"><em>Juan F. Venegas Gutiérrez</em></p>
 <p class="date"><em>2022-08-11</em></p>
 </div>
 <div id="motivación" class="section level1 unnumbered hasAnchor">
 <h1>Motivación<a href="index.html#motivación" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>El siguiente libro esta desarrollado para todos aquellos estudiantes y trabajadores que se desarrollen en el mundo del Data Science o entornos que utilicen algunas de estas técnicas,herramientas y/o métodos,en este contexto el libro es una puerta de entrada para aquellos que se encuentran por primera vez en un curso de estadística aplicada y desean utilizarla como una herramienta transversal para distintas áreas de conocimiento como biología,química,física,procesos industriales,negocios e inclusive su integración en procesos de desarrollo de software.Además se contempla el uso del software R,ya que es un software de cómputo estadístico
-con alta demanda en distintas industrias asi como en la academia,sin embargo se limita su uso
-a la lectura de datos e información,tratamiento y visualización de estos.</p>
-<p>Hoy en día la automatización de procesos asi como la llegada masiva del teletrabajo,a supuesto
-mayores desafíos para las actividades productivas,impulsando a la industrias asi como a los centros de educación la adopación mas temprana que tarde de una transformación tecnologica en diversas actividades que
-antes se realizaban de forma manual y presencial.Debido a lo anterior, la aplicación de la estadística en
-las disintas áreas del desarrollo humano requiere una perspectiva distinta.Es por esto que en el libro no solo encontrarás
-las técnicas estadisticas clásicas sino que se abordan algunas nuevas,mediante el uso del software R Studio.</p>
+<p>El siguiente libro esta desarrollado para todos aquellos estudiantes y trabajadores que se desarrollen en el mundo del Data Science o entornos que utilicen algunas de estas técnicas,herramientas y/o métodos,en este contexto el libro es una puerta de entrada para aquellos que se encuentran por primera vez en un curso de estadística aplicada y desean utilizarla como una herramienta transversal para distintas áreas de conocimiento como biología,química,física,procesos industriales,negocios e inclusive su integración en procesos de desarrollo de software.Además se contempla el uso del software R,ya que es un software de cómputo estadístico con alta demanda en distintas industrias asi como en la academia,sin embargo se limita su uso a la lectura de datos e información,tratamiento y visualización de estos.</p>
+<p>Hoy en día la automatización de procesos asi como la llegada masiva del teletrabajo,a supuesto mayores desafíos para las actividades productivas,impulsando a la industrias asi como a los centros de educación la adopación mas temprana que tarde de una transformación tecnologica en diversas actividades que antes se realizaban de forma manual y presencial.Debido a lo anterior, la aplicación de la estadística en las disintas áreas del desarrollo humano requiere una perspectiva distinta.Es por esto que en el libro no solo encontrarás las técnicas estadisticas clásicas sino que se abordan algunas nuevas,mediante el uso del software R Studio.</p>
+<p><img src="images/topic_statistics.jpg" style="width:100.0%" /></p>
 
 </div>
             </section>

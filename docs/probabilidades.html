@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Capitulo 2 Probabilidades | Fundamentos de estadistica</title>
+  <title>Capitulo 2 Probabilidades | Fundamentos de Aplicaciones estadística</title>
   <meta name="description" content="Aplicaciones estadisticas para un mundo hibrido" />
   <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Capitulo 2 Probabilidades | Fundamentos de estadistica" />
+  <meta property="og:title" content="Capitulo 2 Probabilidades | Fundamentos de Aplicaciones estadística" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Aplicaciones estadisticas para un mundo hibrido" />
   <meta name="github-repo" content="seankross/bookdown-start" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Capitulo 2 Probabilidades | Fundamentos de estadistica" />
+  <meta name="twitter:title" content="Capitulo 2 Probabilidades | Fundamentos de Aplicaciones estadística" />
   
   <meta name="twitter:description" content="Aplicaciones estadisticas para un mundo hibrido" />
   
@@ -133,7 +133,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">Fundamentos de estadistica</a></li>
+<li><a href="./">Fundamentos de aplicaciones estadísticas</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Motivación</a></li>
@@ -150,7 +150,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li class="chapter" data-level="2.3.1" data-path="probabilidades.html"><a href="probabilidades.html#espacio-muestral"><i class="fa fa-check"></i><b>2.3.1</b> Espacio Muestral</a></li>
 <li class="chapter" data-level="2.3.2" data-path="probabilidades.html"><a href="probabilidades.html#eventos"><i class="fa fa-check"></i><b>2.3.2</b> Eventos</a></li>
-<li class="chapter" data-level="2.3.3" data-path="probabilidades.html"><a href="probabilidades.html#probabilidades-de-un-evento"><i class="fa fa-check"></i><b>2.3.3</b> Probabilidades de un evento</a></li>
+<li class="chapter" data-level="2.3.3" data-path="probabilidades.html"><a href="probabilidades.html#el-concepto-de-probabilidad"><i class="fa fa-check"></i><b>2.3.3</b> El concepto de probabilidad</a></li>
+<li class="chapter" data-level="2.3.4" data-path="probabilidades.html"><a href="probabilidades.html#axiomas-de-las-probabilidades"><i class="fa fa-check"></i><b>2.3.4</b> Axiomas de las probabilidades</a></li>
+<li class="chapter" data-level="2.3.5" data-path="probabilidades.html"><a href="probabilidades.html#probabilidad-condicional-e-independencia"><i class="fa fa-check"></i><b>2.3.5</b> Probabilidad Condicional e Independencia</a></li>
+<li class="chapter" data-level="2.3.6" data-path="probabilidades.html"><a href="probabilidades.html#regla-de-bayes"><i class="fa fa-check"></i><b>2.3.6</b> Regla de Bayes</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="distribuciones-de-probabilidad.html"><a href="distribuciones-de-probabilidad.html"><i class="fa fa-check"></i><b>3</b> Distribuciones de Probabilidad</a></li>
@@ -170,7 +173,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Fundamentos de estadistica</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Fundamentos de Aplicaciones estadística</a>
           </h1>
         </div>
 
@@ -180,18 +183,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="probabilidades" class="section level1 hasAnchor" number="2">
 <h1><span class="header-section-number">Capitulo 2</span> Probabilidades<a href="probabilidades.html#probabilidades" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>Asi como se mencionó en el capítulo anterior,la estadística a cobrado un papel mas relevante en el siglo XXI,sobretodo porque nos a permitido generar mayores eficiencia en las industrias debido al uso de métodos estadísticos que han permitido desarrollar mejores hipótesis de trabajo,pronósticos y proyecciones en el corto y largo plazo.Esto sin duda permite que las fabricas se pueden anticipar a las demandas del mercado,pudiendo asi manufacturar productos estandarizados para toda la población,pudiendo asi incluso minimizar el costo de estos.</p>
-<p>En este contexto hemos podido gestionar de mejor forma la incertidumbre y el riesgo asociados a la producción de materias primas,producción en masa y demandas de la población.Tal vez uno de los logros mas importantes de la humanidad,es haber cambiado de una mentalidad deterministica acerca del mundo hacia una probabilistica, lo cual implica cambios profundos en todos los quehaceres de la población,en algunos textos incluso se habla acerca del <em>Statistical Thinking</em>, lo cual es una forma probabilística de ver el mundo,lo cual impacta directamente en como nos relacionamos frente a la incertidumbre y la respuesta que tenemos desde todos los sistemas con los que nos relacionamos.</p>
+<p>Asi como se mencionó en el capítulo anterior,la estadística a cobrado un papel más relevante en el siglo XXI,sobretodo porque nos a permitido generar mayores eficiencias en las industrias debido al uso de métodos estadísticos que han permitido desarrollar mejores hipótesis de trabajo,pronósticos y proyecciones en el corto y largo plazo.Esto sin duda les permite a las fábricas poder anticiparce a las demandas del mercado,pudiendo asi manufacturar las cantidades de productos demandados para toda la población,llegar con los productos a tiempo e incluso pudiendo asi minimizar el costo de estos.</p>
+<p>En este contexto hemos podido gestionar de mejor forma la incertidumbre y el riesgo asociado a la producción de materias primas,producción en masa y demandas de la población.Tal vez uno de los logros mas importantes de la humanidad,es haber cambiado de una mentalidad determinística acerca del mundo hacia una probabilística, lo cual implica cambios profundos en todos los quehaceres de la población,en algunos textos incluso se hace mención al concepto de <em>Statistical Thinking</em>, lo cual es una forma probabilística de ver el mundo,lo cual impacta directamente en como nos relacionamos frente a la incertidumbre y la respuesta que tenemos desde todos los sistemas con los que nos relacionamos.</p>
 <div id="variabilidad-en-el-mundo-real" class="section level2 hasAnchor" number="2.1">
 <h2><span class="header-section-number">2.1</span> Variabilidad en el mundo real<a href="probabilidades.html#variabilidad-en-el-mundo-real" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Cada dia cuando nos levantamos de la cama a pesar de poner la alarma a la misma hora,nunca nos levantamos exactamente a la misma hora y esto no se debe a que la alarma del reloj se encuentre defectuosa,sino que estamos ante la variabilidad desde que nos levantamos e incluso durante todo el dia hasta que nos volvemos a acostar por la noche.Asi mismo cuando en un estudio clinico se desea estudiar la concentración de glucosa en sangre, nunca obtendremos exactamente la misma cantidad en cada una de las personas que se toman este examén,sin embargo si deseamos que estas concentraciones se acerquen o convergan a un cierto valor,lo mismo aplica para la hora que nos levantamos.</p>
-<p>Debido a la existencia de un mundo probabilistico y no deterministico,es que los métodos y técnicas estadisticas se vuelven fundamentales,en caso contrario si el mundo fuera deterministico seria bastante fácil la vida en si misma.</p>
+<p>Cada día cuando nos levantamos de la cama a pesar de poner la alarma a la misma hora,nunca nos levantamos exactamente a la misma hora y esto no se debe a que la alarma del reloj se encuentre defectuosa,sino que estamos en presencia de la variabilidad desde que nos levantamos e incluso durante todo el día hasta que nos volvemos a acostar por la noche.Así mismo cuando en un estudio clínico se desea estudiar la concentración de glucosa en sangre, nunca obtendremos exactamente la misma cantidad en cada una de las personas que se toman este examén,sin embargo si deseamos que estas concentraciones se acerquen o convergan a un cierto valor,lo mismo aplica para la hora que nos levantamos.</p>
+<p>Debido a la existencia de un mundo probabilístico y no determinístico,es que los métodos y técnicas estadísticas se vuelven fundamentales,en caso contrario si el mundo fuera determinístico sería bastante fácil la vida en si misma.</p>
 <p>Sin embargo para hacer frente a la variabilidad es fundamental comprender algunos conceptos que permiten el desarrollo de métodos posteriores,que nos permitiran avanzar en las direcciones principales de este libro: Probabilidades y Estadística.Cabe destacar que la estadística se compone de 2 grandes áreas que tambien se consideran en este libro correspondientes a la Estadística Descriptiva e Inferencial.</p>
 </div>
 <div id="variabilidad-e-incertidumbre" class="section level2 hasAnchor" number="2.2">
 <h2><span class="header-section-number">2.2</span> Variabilidad e incertidumbre<a href="probabilidades.html#variabilidad-e-incertidumbre" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>En algunas ocasiones tendemos a intercambiar los conceptos de variabilidad,incertidumbre y riesgo,sin embargo es fundamental hacer la aclaración,ya que son fundamentalmente distintos.</p>
-<p>Si consideramos el peso corporal como una variable de estudio entre los miembros de una población,podriamos considerar el peso promedio de la población mediante la recolección de estos datos,sin embargo no todos los individuos tendran el mismo peso algunos estaran por debajo del peso promedio y otros por encima,tal vez algunos pocos tendran exactamente el peso promedio,a esto le llamamos variabilidad.</p>
+<p>Si consideramos el peso corporal como una variable de estudio entre los miembros de una población,podriamos considerar el peso promedio de la población mediante la recolección de estos datos,sin embargo no todos los individuos tendrán el mismo peso algunos estarán por debajo del peso promedio y otros por encima,tal vez algunos pocos tendran exactamente el peso promedio,a esto le llamamos variabilidad.</p>
 <p>Sin embargo,sino consideramos en nuestro estudio,hipótesis o teoria algunos aspectos como el lugar de residencia de estas personas asi como de sus hábitos de consumo,sexo,entre otros factores,estaremos introduciendo incertidumbre al estudio.</p>
 <p>De otra forma podemos decir que la variabilidad no puede ser reducida en una población o muestras extraidas,sin embargo la incertidumbre si puede ser reducida e incluso eliminada con mayor información o datos</p>
 </div>
@@ -261,8 +264,8 @@ A \cup \ A&#39;=[uno,dos,tres,cuatro,cinco,seis]
 <p><img src="02-Teoria-de-probabilidad_files/figure-html/unnamed-chunk-5-1.png" width="384" /></p>
 </div>
 </div>
-<div id="probabilidades-de-un-evento" class="section level3 hasAnchor" number="2.3.3">
-<h3><span class="header-section-number">2.3.3</span> Probabilidades de un evento<a href="probabilidades.html#probabilidades-de-un-evento" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="el-concepto-de-probabilidad" class="section level3 hasAnchor" number="2.3.3">
+<h3><span class="header-section-number">2.3.3</span> El concepto de probabilidad<a href="probabilidades.html#el-concepto-de-probabilidad" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Si consideramos un evento <span class="math inline">\(A\)</span>,la probabilidad de este evento corresponde a la suma de todos los elementos muestrales en A,asi tenemos lo siguiente:</p>
 <p><span class="math display">\[\begin{align*}
 0 \le P(A) \le  1 \\ \\
@@ -271,6 +274,15 @@ P(S)=1
 \end{align*}\]</span></p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="probabilidades.html#cb5-1" aria-hidden="true" tabindex="-1"></a>x<span class="op">=</span>[<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>]</span></code></pre></div>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="probabilidades.html#cb6-1" aria-hidden="true" tabindex="-1"></a>x<span class="ot">=</span><span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span></code></pre></div>
+</div>
+<div id="axiomas-de-las-probabilidades" class="section level3 hasAnchor" number="2.3.4">
+<h3><span class="header-section-number">2.3.4</span> Axiomas de las probabilidades<a href="probabilidades.html#axiomas-de-las-probabilidades" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="probabilidad-condicional-e-independencia" class="section level3 hasAnchor" number="2.3.5">
+<h3><span class="header-section-number">2.3.5</span> Probabilidad Condicional e Independencia<a href="probabilidades.html#probabilidad-condicional-e-independencia" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="regla-de-bayes" class="section level3 hasAnchor" number="2.3.6">
+<h3><span class="header-section-number">2.3.6</span> Regla de Bayes<a href="probabilidades.html#regla-de-bayes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 
 </div>
 </div>

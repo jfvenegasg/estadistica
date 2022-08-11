@@ -22,3 +22,7 @@ complementos
 intersección
 eventos-mutuamente-excluyentes
 union
+el-concepto-de-probabilidad
+axiomas-de-las-probabilidades
+probabilidad-condicional-e-independencia
+regla-de-bayes

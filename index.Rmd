@@ -1,5 +1,5 @@
 ---
-title: "Fundamentos de estadistica"
+title: "Fundamentos de Aplicaciones estadística"
 author: "Juan F. Venegas Gutiérrez"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -14,12 +14,8 @@ description: "Aplicaciones estadisticas para un mundo hibrido"
 
 # Motivación {.unnumbered}
 
-El siguiente libro esta desarrollado para todos aquellos estudiantes y trabajadores que se desarrollen en el mundo del Data Science o entornos que utilicen algunas de estas técnicas,herramientas y/o métodos,en este contexto el libro es una puerta de entrada para aquellos que se encuentran por primera vez en un curso de estadística aplicada y desean utilizarla como una herramienta transversal para distintas áreas de conocimiento como biología,química,física,procesos industriales,negocios e inclusive su integración en procesos de desarrollo de software.Además se contempla el uso del software R,ya que es un software de cómputo estadístico 
-con alta demanda en distintas industrias asi como en la academia,sin embargo se limita su uso
-a la lectura de datos e información,tratamiento y visualización de estos.
+El siguiente libro esta desarrollado para todos aquellos estudiantes y trabajadores que se desarrollen en el mundo del Data Science o entornos que utilicen algunas de estas técnicas,herramientas y/o métodos,en este contexto el libro es una puerta de entrada para aquellos que se encuentran por primera vez en un curso de estadística aplicada y desean utilizarla como una herramienta transversal para distintas áreas de conocimiento como biología,química,física,procesos industriales,negocios e inclusive su integración en procesos de desarrollo de software.Además se contempla el uso del software R,ya que es un software de cómputo estadístico con alta demanda en distintas industrias asi como en la academia,sin embargo se limita su uso a la lectura de datos e información,tratamiento y visualización de estos.
 
-Hoy en día la automatización de procesos asi como la llegada masiva del teletrabajo,a supuesto 
-mayores desafíos para las actividades productivas,impulsando a la industrias asi como a los centros de educación la adopación mas temprana que tarde de una transformación tecnologica en diversas actividades que
-antes se realizaban de forma manual y presencial.Debido a lo anterior, la aplicación de la estadística en 
-las disintas áreas del desarrollo humano requiere una perspectiva distinta.Es por esto que en el libro no solo encontrarás
-las técnicas estadisticas clásicas sino que se abordan algunas nuevas,mediante el uso del software R Studio.
+Hoy en día la automatización de procesos asi como la llegada masiva del teletrabajo,a supuesto mayores desafíos para las actividades productivas,impulsando a la industrias asi como a los centros de educación la adopación mas temprana que tarde de una transformación tecnologica en diversas actividades que antes se realizaban de forma manual y presencial.Debido a lo anterior, la aplicación de la estadística en las disintas áreas del desarrollo humano requiere una perspectiva distinta.Es por esto que en el libro no solo encontrarás las técnicas estadisticas clásicas sino que se abordan algunas nuevas,mediante el uso del software R Studio.
+
+![](images/topic_statistics.jpg){width="100%"}
