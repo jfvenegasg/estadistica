@@ -208,6 +208,43 @@ Si consideramos el espacio muestral <span class="math inline">\(\Omega\)</span> 
 </div>
 <div id="eventos" class="section level3 hasAnchor" number="2.3.2">
 <h3><span class="header-section-number">2.3.2</span> Eventos<a href="probabilidades.html#eventos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Un <strong>evento</strong> es un subconjunto de elementos presentes en un espacio muestral.</p>
+<p>En este contexto si definimos el espacio muestral del lanzamiento de un dado de 6 caras que no se encuentra cargado</p>
+<p><span class="math display">\[\begin{align*}
+\Omega=[uno,dos,tres,cuatro,cinco,seis]
+\end{align*}\]</span></p>
+<p>En R podemos definir el vector omega que contenga a todos los elementos del espacio muestral .</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="probabilidades.html#cb1-1" aria-hidden="true" tabindex="-1"></a>omega<span class="ot">=</span><span class="fu">c</span>(<span class="st">&quot;uno&quot;</span>,<span class="st">&quot;dos&quot;</span>,<span class="st">&quot;tres&quot;</span>,<span class="st">&quot;cuatro&quot;</span>,<span class="st">&quot;cinco&quot;</span>,<span class="st">&quot;seis&quot;</span>)</span></code></pre></div>
+<p>El evento <span class="math inline">\(A\)</span> de obtener un numero menor que <strong>cuatro</strong> seria</p>
+<p><span class="math display">\[\begin{align*}
+A=[uno,dos,tres]
+\end{align*}\]</span></p>
+<p>Al igual que en el caso anterior podemos definir el vector A,pero en este caso solo contendra a los elementos menores que 4</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="probabilidades.html#cb2-1" aria-hidden="true" tabindex="-1"></a>A<span class="ot">=</span><span class="fu">c</span>(<span class="st">&quot;uno&quot;</span>,<span class="st">&quot;dos&quot;</span>,<span class="st">&quot;tres&quot;</span>)</span></code></pre></div>
+<div id="complementos" class="section level4 hasAnchor" number="2.3.2.1">
+<h4><span class="header-section-number">2.3.2.1</span> Complementos<a href="probabilidades.html#complementos" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>El <strong>complemento</strong> de un evento respecto de ,corresponde al subconjunto de todos aquellos elementos de <span class="math inline">\(A\)</span> que no estan en ,asi podemos denotar al complemento como <span class="math inline">\(A&#39;\)</span></p>
+<p>De acuerdo al ejemplo anterior,el complemento de <span class="math inline">\(A\)</span></p>
+<p><span class="math display">\[\begin{align*}
+A&#39;=[cuatro,cinco,seis]
+\end{align*}\]</span></p>
+</div>
+<div id="intersección" class="section level4 hasAnchor" number="2.3.2.2">
+<h4><span class="header-section-number">2.3.2.2</span> Intersección<a href="probabilidades.html#intersección" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>La intersección entre dos eventos <span class="math inline">\(A\)</span> y <span class="math inline">\(B\)</span>, se denota como <span class="math inline">\(A\)</span> <span class="math inline">\(\cap\)</span> <span class="math inline">\(B\)</span> y corresponde al evento que contiene a todos los elementos comunes entre <span class="math inline">\(A\)</span> y <span class="math inline">\(B\)</span>.</p>
+<p>Siguiendo con el espacio muestral ya definido,podemos establecer que la interseccion</p>
+<p><span class="math display">\[\begin{align*}
+\Omega \cap A=[uno,dos,tres]
+\end{align*}\]</span></p>
+</div>
+<div id="eventos-mutuamente-excluyentes" class="section level4 hasAnchor" number="2.3.2.3">
+<h4><span class="header-section-number">2.3.2.3</span> Eventos mutuamente excluyentes<a href="probabilidades.html#eventos-mutuamente-excluyentes" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Si dos eventos <span class="math inline">\(A\)</span> y <span class="math inline">\(B\)</span> no tienen elementos en común,decimos que los eventos son <strong>mutuamente excluyentes</strong>,es decir $A   B=$</p>
+<p>Si consideramos la intersección los eventos <span class="math inline">\(A\)</span> y <span class="math inline">\(A&#39;\)</span> determinados en la sección anterior,tenemos que</p>
+<p><span class="math display">\[\begin{align*}
+A \cap \ A&#39;=\phi
+\end{align*}\]</span></p>
+</div>
 </div>
 <div id="probabilidades-de-un-evento" class="section level3 hasAnchor" number="2.3.3">
 <h3><span class="header-section-number">2.3.3</span> Probabilidades de un evento<a href="probabilidades.html#probabilidades-de-un-evento" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -217,8 +254,8 @@ Si consideramos el espacio muestral <span class="math inline">\(\Omega\)</span> 
 P(\theta)=0 \\ \\
 P(S)=1
 \end{align*}\]</span></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="probabilidades.html#cb1-1" aria-hidden="true" tabindex="-1"></a>x<span class="op">=</span>[<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>]</span></code></pre></div>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="probabilidades.html#cb2-1" aria-hidden="true" tabindex="-1"></a>x<span class="ot">=</span><span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="probabilidades.html#cb3-1" aria-hidden="true" tabindex="-1"></a>x<span class="op">=</span>[<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>]</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="probabilidades.html#cb4-1" aria-hidden="true" tabindex="-1"></a>x<span class="ot">=</span><span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span></code></pre></div>
 
 </div>
 </div>

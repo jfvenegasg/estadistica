@@ -38,6 +38,70 @@ Si consideramos el espacio muestral $\Omega$ de todos los elementos que obtenemo
 
 ### Eventos
 
+Un **evento** es un subconjunto de elementos presentes en un espacio muestral. 
+
+En este contexto si definimos el espacio muestral del lanzamiento de un dado de 6 caras que no se encuentra cargado
+
+\begin{align*}
+\Omega=[uno,dos,tres,cuatro,cinco,seis]
+\end{align*}
+
+En R podemos definir el vector omega que contenga a todos los elementos del espacio muestral \Omega.
+
+```{r}
+omega=c("uno","dos","tres","cuatro","cinco","seis")
+```
+
+
+El evento $A$ de obtener un numero menor que **cuatro** seria
+
+\begin{align*}
+A=[uno,dos,tres]
+\end{align*}
+
+Al igual que en el caso anterior podemos definir el vector A,pero en este caso solo contendra a los elementos menores que 4
+
+```{r}
+A=c("uno","dos","tres")
+```
+
+
+#### Complementos
+
+El **complemento** de un evento respecto de \Omega,corresponde al subconjunto de todos aquellos elementos de $A$ que no estan en \Omega,asi podemos denotar al complemento como $A'$
+
+De acuerdo al ejemplo anterior,el complemento de $A$
+
+\begin{align*}
+A'=[cuatro,cinco,seis]
+\end{align*}
+
+#### Intersección
+
+La intersección entre dos eventos $A$ y $B$, se denota como $A$ $\cap$ $B$ y corresponde al evento que contiene a todos los elementos comunes entre $A$ y $B$.
+
+Siguiendo con el espacio muestral \Omega ya definido,podemos establecer que la interseccion
+
+\begin{align*}
+\Omega \cap A=[uno,dos,tres]
+\end{align*}
+
+#### Eventos mutuamente excluyentes
+
+Si dos eventos $A$ y $B$ no tienen elementos en común,decimos que los eventos son **mutuamente excluyentes**,es decir $A \ \cap \ B=\phi $
+
+Si consideramos la intersección los eventos $A$ y $A'$ determinados en la sección anterior,tenemos que
+
+\begin{align*}
+A \cap \ A'=\phi
+\end{align*}
+
+
+
+
+
+
+
 ### Probabilidades de un evento
 
 Si consideramos un evento $A$,la probabilidad de este evento corresponde a la suma de todos los elementos muestrales en A,asi tenemos lo siguiente:
