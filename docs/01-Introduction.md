@@ -61,3 +61,22 @@ A continuación se muestra una imagen de la ventana principal de R Studio.
 <img src="images/rstudio.png" width="594" />
 
 En el primer panel se ubica la ventana de script,en donde es posible escribir aquellas instrucciones secuenciales que queremos que se ejecuten, sean operaciones aritmeticas,definición de variables, gráficos,entre otras.Luego el segundo panel se ubica la consola junto a otros sub-paneles en donde es posible ejecutar instrucciones una a una dentro de otras fuera del entorno de R,además es la ventana original que brinda el software R sin el uso del IDE de R Studio.En el tercer panel se ubica la ventana en donde se almacenan variables como vectores,matrices,listas entre otras estructuras de datos,a las cuales se puede acceder directamente desde este panel o desde un script o la consola.Finalmente en la cuarta ventana se ubica el directorio de trabajo asi como otros sub-paneles en donde se puede acceder a la ayuda de R,gráficos desarrollados,entre otros.
+
+## Variabilidad en el mundo real
+
+Cada día cuando nos levantamos de la cama a pesar de poner la alarma a la misma hora,nunca nos levantamos exactamente a la misma hora y esto no se debe a que la alarma del reloj se encuentre defectuosa,sino que estamos en presencia de la variabilidad desde que nos levantamos e incluso durante todo el día hasta que nos volvemos a acostar por la noche.Así mismo cuando en un estudio clínico se desea estudiar la concentración de glucosa en sangre, nunca obtendremos exactamente la misma cantidad en cada una de las personas que se toman este examén,sin embargo si deseamos que estas concentraciones se acerquen o convergan a un cierto valor,lo mismo aplica para la hora que nos levantamos.
+
+Debido a la existencia de un mundo probabilístico y no determinístico,es que los métodos y técnicas estadísticas se vuelven fundamentales,en caso contrario si el mundo fuera determinístico sería bastante fácil la vida en si misma.
+
+Sin embargo para hacer frente a la variabilidad es fundamental comprender algunos conceptos que permiten el desarrollo de métodos posteriores,que nos permitiran avanzar en las direcciones principales de este libro: Probabilidades y Estadística.Cabe destacar que la estadística se compone de 2 grandes áreas que tambien se consideran en este libro correspondientes a la Estadística Descriptiva e Inferencial.
+
+## Variabilidad e incertidumbre
+
+En algunas ocasiones tendemos a intercambiar los conceptos de variabilidad,incertidumbre y riesgo,sin embargo es fundamental hacer la aclaración,ya que son fundamentalmente distintos.
+
+Si consideramos el peso corporal como una variable de estudio entre los miembros de una población,podriamos considerar el peso promedio de la población mediante la recolección de estos datos,sin embargo no todos los individuos tendrán el mismo peso algunos estarán por debajo del peso promedio y otros por encima,tal vez algunos pocos tendran exactamente el peso promedio,a esto le llamamos variabilidad.
+
+Sin embargo,sino consideramos en nuestro estudio,hipótesis o teoria algunos aspectos como el lugar de residencia de estas personas asi como de sus hábitos de consumo,sexo,entre otros factores,estaremos introduciendo incertidumbre al estudio.
+
+De otra forma podemos decir que la variabilidad no puede ser reducida en una población o muestras extraidas,sin embargo la incertidumbre si puede ser reducida e incluso eliminada con mayor información o datos
+
